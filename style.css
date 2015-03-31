@@ -1,0 +1,77 @@
+/* CSS For Landing Page with Full Screen Background Video Playing */
+
+body {
+    margin: 0;
+    background: #000;
+    height: 100%;
+}
+
+video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    background: url('https://cloud.githubusercontent.com/assets/4088925/6924856/083098fe-d7f9-11e4-8a1a-057ed5537195.png') no-repeat;
+    background-size: cover;
+    transition: 1s opacity;
+}
+
+#logo {
+    background: url('logo.png') no-repeat;
+    background-size: cover;
+    height: 150px;
+    width: 150px;
+    margin: 0 auto;
+    margin-top: 15%;
+}
+
+.navbar-static-bottom {
+    position: fixed !important;
+    bottom: 0px;
+    width: 100%;
+    margin-bottom: 0px !important;
+    background: #e8e8e8;
+}
+
+.navbar ul {
+    list-style: none;
+    width: 100%;
+    margin-left: -20px;
+}
+
+.navbar ul li {
+    float: left;
+    width: 20%;
+    text-align: center;
+    line-height: 50px;
+    cursor: pointer;
+}
+
+.navbar ul li:hover,
+.navbar .active {
+    background: #ccc9c9;
+}
+
+.navbar .container-fluid {
+    margin: 0px;
+    padding: 0px;
+}
+
+.navbar .glyphicon {
+    font-size: 20px;
+}
+
+@media screen and (max-width: 500px) {}
+/*
+@media screen and (max-device-width: 800px) {
+    html {
+        background: url(//demosthenes.info/assets/images/polina.jpg) #000 no-repeat center center fixed;
+    }
+    #bgvid {
+        display: none;
+    }
+}*/

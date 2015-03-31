@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Fullscreen Video Background Sample for Sundial Music</title>
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.css">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
+</head>
+
+<body>
+    <video autoplay poster="https://cloud.githubusercontent.com/assets/4088925/6924856/083098fe-d7f9-11e4-8a1a-057ed5537195.png" id="bgvid" loop>
+        <!-- WCAG general accessibility recommendation is that media such as background video play through only once. Loop turned on for the purposes of illustration; if removed, the end of the video will fade in the same way created by pressing the "Pause" button  -->
+        <!--<source src="link-to-webm" type="video/webm">-->
+        <source src="http://static-p.iuqo.com/media/home/home/video/cloud.mp4" type="video/mp4">
+    </video>
+
+    <div id="logo"></div>
+
+    <!-- Static navbar -->
+    <nav class="navbar navbar-static-bottom">
+        <div class="container-fluid">
+
+            <ul>
+                <li class="active">
+                    <a href="#aboutUs">
+                        <span class="visible-lg-block visible-md-block visible-sm-block hidden-xs">About Us</span>
+                        <span class="visibile-xs-block hidden-lg hidden-md hidden-sm"><i class="glyphicon glyphicon-user"></i></span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#services">
+                        <span class="visible-lg-block visible-md-block visible-sm-block hidden-xs">Services</span>
+                        <span class="visibile-xs-block hidden-lg hidden-md hidden-sm"><i class="glyphicon glyphicon glyphicon-list-alt"></i></span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#services">
+                        <span class="visible-lg-block visible-md-block visible-sm-block hidden-xs">Link 3</span>
+                        <span class="visibile-xs-block hidden-lg hidden-md hidden-sm"><i class="glyphicon glyphicon-cog"></i></span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#services">
+                        <span class="visible-lg-block visible-md-block visible-sm-block hidden-xs">Link 4</span>
+                        <span class="visibile-xs-block hidden-lg hidden-md hidden-sm"><i class="glyphicon glyphicon-qrcode"></i></span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#services">
+                        <span class="visible-lg-block visible-md-block visible-sm-block hidden-xs">Link 5</span>
+                        <span class="visibile-xs-block hidden-lg hidden-md hidden-sm"><i class="glyphicon glyphicon-picture"></i></span>
+                    </a>
+                </li>
+            </ul>
+
+        </div>
+    </nav>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+</body>
+
+</html>
